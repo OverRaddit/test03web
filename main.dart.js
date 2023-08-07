@@ -81283,7 +81283,7 @@ s=m.acn()
 r=m.Uz(s,$.Z_())
 q=m.Uy(m.w)
 p=B.Aw.ahG(3)
-r[2]=$.Z_()[[7,8,9][p]]
+r[2]=$.Z_()[[6,7,8][p]]
 A.mr("topPerfumes:"+A.f(r))
 A.mr("topKeywords:"+A.f(q))
 o=m.gdG()
