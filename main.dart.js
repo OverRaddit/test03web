@@ -65521,7 +65521,7 @@ n=o.gak()
 o=o.a
 o===$&&A.b()
 m=$.C().ga_()
-return A.aS(A.da(A.a([new A.tn(k,10,l),p,A.aS(A.ahc(B.Hk,new A.WS(s,b),q.length,l),500*m,500*(n/o.a))],t.p),B.Z,B.N,B.w),l,l)}}
+return A.aS(A.da(A.a([new A.tn(k,10,l),p,A.aS(A.ahc(B.Hk,new A.WS(s,b),q.length,l),450*m,500*(n/o.a))],t.p),B.Z,B.N,B.w),l,l)}}
 A.WS.prototype={
 $2(a,b){var s,r=null,q=this.a,p=q.r[b],o=p.c?B.k:r,n=$.C(),m=n.gak()
 n=n.a
@@ -65553,7 +65553,7 @@ q=r.gak()
 r=r.a
 r===$&&A.b()
 p=$.C().ga_()
-return A.da(A.a([new A.tn(m,3,null),s,A.aS(A.ahc(B.Hl,new A.a5y(o,n,l),o.a.e.length,B.js),500*p,500*(q/r.a))],t.p),B.Z,B.N,B.w)}}
+return A.da(A.a([new A.tn(m,3,null),s,A.aS(A.ahc(B.Hl,new A.a5y(o,n,l),o.a.e.length,B.js),450*p,500*(q/r.a))],t.p),B.Z,B.N,B.w)}}
 A.a5y.prototype={
 $2(a,b){var s,r,q=null,p=this.b.u(0,b),o=this.a,n=p?B.cO:B.h,m=p?5:0,l=o.a.e[b],k=$.C(),j=k.gak()
 k=k.a
