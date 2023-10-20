@@ -40,7 +40,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3643801105";
+    const serviceWorkerVersion = "1613724427";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -61,14 +61,14 @@
 </style>
 </head>
 <body>
-  <!-- <div id="loading">
+  <div id="loading">
     <div>Loading...</div>
-  </div> -->
+  </div>
 <script>
-    // 플러터 앱이 로드되면 로딩 화면을 숨김
-    // window.addEventListener('flutter-first-frame', function () {
-    //     document.getElementById('loading').style.display = 'none';
-    // });
+    //플러터 앱이 로드되면 로딩 화면을 숨김
+    window.addEventListener('flutter-first-frame', function () {
+        document.getElementById('loading').style.display = 'none';
+    });
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
