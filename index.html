@@ -40,31 +40,41 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1613724427";
+    const serviceWorkerVersion = "1410299362";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 
   <!-- for loading -->
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+
     #loading {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('loading.png'); /* 여기에 실제 이미지 경로를 입력하세요 */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 </style>
 </head>
 <body>
   <div id="loading">
-    <div>Loading...</div>
+    <!-- <div>Loading...</div> -->
   </div>
-<script>
+  <script>
     //플러터 앱이 로드되면 로딩 화면을 숨김
     window.addEventListener('flutter-first-frame', function () {
         document.getElementById('loading').style.display = 'none';
